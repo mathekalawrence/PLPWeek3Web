@@ -1,0 +1,10 @@
+body{
+    color:rgb(97, 31, 173);
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding: 25px;
+}
