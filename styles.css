@@ -6,5 +6,19 @@ body{
 }
 
 .container{
-    padding: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: 25px auto;
+    max-width: 700px;
+}
+
+.columnA{
+    background-color: blue;
+    flex: 2; /*Makes it twice the other one */
+
+}
+
+.columnB{
+
 }
