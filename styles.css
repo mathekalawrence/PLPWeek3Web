@@ -81,3 +81,10 @@ body{
 label{
     font-weight: bold;
 }
+
+img{
+    border-radius: 250px;
+    height: 90px;
+    width: 90px;
+
+}
