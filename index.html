@@ -11,7 +11,7 @@
 <!--Header in HTML -->
     <header class="hd">
     <h2>HTML and CSS</h2>
-    <p>Margins, padding and borders</p>
+    <p><em><b>Margins, padding, borders and More</b></em></p>
     </header>
 
 <!--Navigation bar-->
@@ -25,19 +25,31 @@
     </ul>
  </nav>
 
-
     <div class="container">
+        <section class="container-box">
         <div class="columnA">
-            <h3>One Side</h3>
-            <p>This is the left column</p>
-
+            <h3 style="text-align: center;">Login</h3>
+            <p><em>Enter your credentials..</em></p>
+            <hr>
+            <label>Username</label><br>
+            <input type="text" placeholder="Enter username" name="usr" id="usr" required>
+            <br><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="pswd" id="pswd" placeholder="Please enter passowrd" required>
+            <br><br>
+            <input type="Submit" value="submit">
         </div>
 
         <div class="columnB">
             <h3>Other Side</h3>
             <p>This is the column on the right</p>
         </div>
+        </section>
     </div>
+
+     <footer id="footer-box">
+        <p> CSS Box Model. All rights reserved!!.</p>
+    </footer>
     
 </body>
 </html>
