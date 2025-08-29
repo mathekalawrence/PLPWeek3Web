@@ -2,8 +2,7 @@ body{
     color:rgb(97, 31, 173);
     background-color: aquamarine;
     padding: 20;
-    margin: 40px;
-    
+    margin: 40px;  
 }
 
 .hd {
@@ -99,4 +98,5 @@ img{
 
 fieldset{
     border-radius: 5px solid 10px grey;
+
 }
